@@ -1,0 +1,21 @@
+{
+  "name": "jstab",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "mixtyraa <mixtyraa@mail.ru>",
+  "license": "MIT",
+  "devDependencies": {
+    "copy-webpack-plugin": "^5.0.3",
+    "cross-env": "^5.2.0",
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.17.3",
+    "webpack": "^4.35.0",
+    "webpack-chrome-extension-reloader": "^1.3.0",
+    "webpack-cli": "^3.3.4",
+    "webpack-extension-manifest-plugin": "^0.4.3"
+  },
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development webpack --config webpack.config.js --mode=development --watch"
+  }
+}
